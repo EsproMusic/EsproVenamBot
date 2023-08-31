@@ -1,1 +1,1 @@
-worker: python3 -m kisan
+worker: python3 -m EsproVenam
