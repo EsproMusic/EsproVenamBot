@@ -96,15 +96,15 @@ reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                text="❣ Sᴜᴩᴩᴏʀᴛ ❣", url=f"https://t.me/EsproSupport"
+                text="🍁Sᴜᴩᴩᴏʀᴛ🥀", url=f"https://t.me/EsproSupport"
             ),
             InlineKeyboardButton(
-                text="❣ Uᴘᴅᴀᴛᴇ ❣", url=f"https://t.me/EsproUpdate"
+                text="🍁Uᴘᴅᴀᴛᴇ🥀", url=f"https://t.me/EsproUpdate"
             )
         ],
         [
             InlineKeyboardButton(
-                text="✨❣ Oᴡɴᴇʀ ❣✨", url=f"https://t.me/l_ll_ritikraj_ll_l"
+                text="❄️Oᴡɴᴇʀ❄️", url=f"https://t.me/i_ii_ritikraj_ii_i"
             )
         ]
                 
