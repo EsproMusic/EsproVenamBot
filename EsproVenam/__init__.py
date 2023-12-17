@@ -251,9 +251,7 @@ reply_markup=InlineKeyboardMarkup(
         ),
     )
 
-
-
-      if Config.BOT_TOKEN1:
+if Config.BOT_TOKEN1:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/4f98411fc494e0491472e.jpg",
@@ -279,7 +277,7 @@ reply_markup=InlineKeyboardMarkup(
         ),
                              )
 
-      if Config.BOT_TOKEN2:
+if Config.BOT_TOKEN2:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/4f98411fc494e0491472e.jpg",
@@ -305,7 +303,7 @@ reply_markup=InlineKeyboardMarkup(
         ),
                              )
 
-      if Config.BOT_TOKEN3:
+if Config.BOT_TOKEN3:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/4f98411fc494e0491472e.jpg",
@@ -331,7 +329,7 @@ reply_markup=InlineKeyboardMarkup(
         ),
                              )
 
-      if Config.BOT_TOKEN4:
+if Config.BOT_TOKEN4:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/4f98411fc494e0491472e.jpg",
@@ -357,7 +355,7 @@ reply_markup=InlineKeyboardMarkup(
         ),
                              )
 
-      if Config.BOT_TOKEN5:
+if Config.BOT_TOKEN5:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/4f98411fc494e0491472e.jpg",
@@ -383,7 +381,7 @@ reply_markup=InlineKeyboardMarkup(
         ),
                              )
 
-      if Config.BOT_TOKEN6:
+if Config.BOT_TOKEN6:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/4f98411fc494e0491472e.jpg",
@@ -409,7 +407,7 @@ reply_markup=InlineKeyboardMarkup(
         ),
                              )
 
-      if Config.BOT_TOKEN7:
+if Config.BOT_TOKEN7:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/4f98411fc494e0491472e.jpg",
@@ -435,7 +433,7 @@ reply_markup=InlineKeyboardMarkup(
         ),
                              )
 
-      if Config.BOT_TOKEN8:
+if Config.BOT_TOKEN8:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/4f98411fc494e0491472e.jpg",
@@ -461,7 +459,7 @@ reply_markup=InlineKeyboardMarkup(
         ),
                              )
 
-      if Config.BOT_TOKEN9:
+if Config.BOT_TOKEN9:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/4f98411fc494e0491472e.jpg",
