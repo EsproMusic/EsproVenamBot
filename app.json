@@ -11,51 +11,6 @@
             "required": true
         },
 
-        "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
-        },
-
-        "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
-        },
-
-        "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
-        },
-
-        "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
-        },
-
-        "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
-        },
-
-        "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
-        },
-
-        "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
-        },
-
-        "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
-        },
-
-        "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
-        },
-        
         "API_HASH": {
             "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
             "required": true,
