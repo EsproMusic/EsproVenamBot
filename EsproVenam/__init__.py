@@ -99,6 +99,148 @@ if Config.BOT_TOKEN:
 
 
 if Config.BOT_TOKEN1:
+  @bot.on_message(filters.command("banall"))
+  async def mban(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.send_message(msg.chat.id, f"/ban {i.user.id}")
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print("failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+
+if Config.BOT_TOKEN2:
+  @bot.on_message(filters.command("banall"))
+  async def mban(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.send_message(msg.chat.id, f"/ban {i.user.id}")
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print("failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+
+if Config.BOT_TOKEN3:
+  @bot.on_message(filters.command("banall"))
+  async def mban(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.send_message(msg.chat.id, f"/ban {i.user.id}")
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print("failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+
+if Config.BOT_TOKEN4:
+  @bot.on_message(filters.command("banall"))
+  async def mban(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.send_message(msg.chat.id, f"/ban {i.user.id}")
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print("failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+
+if Config.BOT_TOKEN5:
+  @bot.on_message(filters.command("banall"))
+  async def mban(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.send_message(msg.chat.id, f"/ban {i.user.id}")
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print("failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+
+if Config.BOT_TOKEN6:
+  @bot.on_message(filters.command("banall"))
+  async def mban(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.send_message(msg.chat.id, f"/ban {i.user.id}")
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print("failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+
+if Config.BOT_TOKEN7:
+  @bot.on_message(filters.command("banall"))
+  async def mban(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.send_message(msg.chat.id, f"/ban {i.user.id}")
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print("failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+
+if Config.BOT_TOKEN8:
+  @bot.on_message(filters.command("banall"))
+  async def mban(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.send_message(msg.chat.id, f"/ban {i.user.id}")
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print("failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+
+if Config.BOT_TOKEN9:
+  @bot.on_message(filters.command("banall"))
+  async def mban(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.send_message(msg.chat.id, f"/ban {i.user.id}")
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print("failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+                                   
+if Config.BOT_TOKEN:
+  @bot.on_message(filters.command("mbanall"))
+  async def _(bot, msg):
+    print("getting memebers from {}".format(msg.chat.id))
+    async for i in bot.iter_chat_members(msg.chat.id):
+        try:
+            await bot.ban_chat_member(chat_id =msg.chat.id,user_id=i.user.id)
+            print("kicked {} from {}".format(i.user.id,msg.chat.id))
+        except FloodWait as e:
+            await asyncio.sleep(e.x)
+            print(e)
+        except Exception as e:
+            print(" failed to kicked {} from {}".format(i.user.id,e))           
+    print("process completed")
+
+
+if Config.BOT_TOKEN1:
   @bot.on_message(filters.command("mbanall"))
   async def mban(bot, msg):
     print("getting memebers from {}".format(msg.chat.id))
